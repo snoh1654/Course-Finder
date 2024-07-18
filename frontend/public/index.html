@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>UBC Course Finder</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@100;300&display=swap"
+		rel="stylesheet"
+	/>
+	<link href="/style.css" rel="stylesheet" />
+	<style>
+		:root {
+	font-size: 16px;
+}
+
+body {
+	background: linear-gradient(
+		to bottom,
+		#fceabb 5%,
+		#fccd4d 50%,
+		#f8b500 750%,
+		#fbdf93 100%
+	) no-repeat fixed;
+}
+
+.main {
+	font-family: "Roboto", sans-serif;
+	width: 99vw;
+	height: 98vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(8, 1fr);
+	justify-items: center;
+	align-items: start;
+}
+
+.button {
+	background-color: #3f51b5;
+	border: none;
+	color: white;
+	padding: 0.5rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	border-radius: 10px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #7a8af3;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.query-input {
+	grid-row: span 4;
+	border-style: solid;
+	border-radius: 15px;
+	height: 85%;
+	width: 75%;
+	position: relative;
+}
+
+.query-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 85%;
+}
+
+.query-submission {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.add-button {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.dataset-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-row: span 2;
+	height: 100%;
+	width: 100%;
+}
+
+.dataset-list-title {
+	color: black;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.dataset-list-items {
+	flex-grow: 1;
+	border-style: solid;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 10px;
+	width: 85%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.result {
+	align-self: center;
+	grid-row: span 7;
+	border-style: solid;
+	width: 75%;
+	height: 90%;
+	border-radius: 15px;
+}
+
+.result-title {
+	padding: 0px;
+	margin-bottom: 1rem;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	height: 95%;
+}
+
+.result-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.result-queries {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.author {
+	align-self: end;
+	justify-self: right;
+}
+
+.input-field {
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.actual-add-button {
+	margin: 10px;
+}
+
+th {
+	background-color: #3f51b5;
+	color: white;
+	border: 1px solid black;
+	width: 150px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+td {
+	width: 150px;
+	padding: 5px;
+}
+
+	</style>
+</head>
+<body>
+<main class="main">
+	<h1 class="title">UBC Course Average Finder</h1>
+
+	<section class="result">
+		<div class="data">
+			<h3 class="result-title">Query Result</h3>
+			<div class="result-queries" id = "result-table">Input a Query</div>
+		</div>
+		<div class="result-buttons">
+			<button id = "prev" class="prev button">Prev</button>
+			<label id="page-number"><strong>Page 1</strong></label>
+			<button id = "next" class="next button">Next</button>
+		</div>
+	</section>
+
+	<section class="query-input">
+		<form action="submit" class="query-form">
+			<h2 class="input-title">Input Query</h2>
+
+			<label for="dataset-name">Dataset Name:</label><br />
+			<input
+				class="input-field"
+				type="text"
+				id="dataset-name"
+				name="dataset-name"
+			/>
+
+			<p>Logic:</p>
+			<div class="query-logic" id="radio-form">
+				<input type="radio" id=">=" name="logic" value=">=" />
+				<label for=">=">></label><br />
+
+				<input type="radio" id="==" name="logic" value="==" />
+				<label for="==">==</label><br />
+
+				<input type="radio" id="<=" name="logic" value="<=" />
+				<label for="<="><</label>
+			</div>
+
+			<br />
+			<label for="dataset-value">Querying Number:</label><br />
+			<input
+				class="input-field"
+				type="text"
+				id="dataset-value"
+				name="dataset-value"
+			/>
+		</form>
+		<div class="query-submission">
+			<button id="query-button" class="button">Submit Query</button>
+		</div>
+	</section>
+
+	<section class="dataset-list">
+		<h3 class="dataset-list-title">Dataset List</h3>
+		<ul id = "dataset-list-container" class="dataset-list-items"></ul>
+	</section>
+
+	<section class="add-button">
+		<input id = "zip-file-input" type="file" accept=".zip"/>
+		<br>
+		<input class= "input-field"
+			type="text"
+			id="name-value"
+			name="dataset-value"
+		/>
+		<button id="add-button" class="button actual-add-button">Add Dataset</button>
+	</section>
+
+	<section class="author">
+		<h4 class="author-names">By Sean Noh and Malcolm Zhao</h4>
+	</section>
+</main>
+
+<script type="module" src="/frontend.js"></script>
+</body>
+</html>
+

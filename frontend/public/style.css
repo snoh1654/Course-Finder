@@ -1,0 +1,165 @@
+:root {
+	font-size: 16px;
+}
+
+body {
+	background: linear-gradient(
+		to bottom,
+		#fceabb 5%,
+		#fccd4d 50%,
+		#f8b500 750%,
+		#fbdf93 100%
+	) no-repeat fixed;
+}
+
+.main {
+	font-family: "Roboto", sans-serif;
+	width: 99vw;
+	height: 98vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(8, 1fr);
+	justify-items: center;
+	align-items: start;
+}
+
+.button {
+	background-color: #3f51b5;
+	border: none;
+	color: white;
+	padding: 0.5rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	border-radius: 10px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #7a8af3;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.query-input {
+	grid-row: span 4;
+	border-style: solid;
+	border-radius: 15px;
+	height: 85%;
+	width: 75%;
+	position: relative;
+}
+
+.query-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 85%;
+}
+
+.query-submission {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.add-button {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.dataset-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-row: span 2;
+	height: 100%;
+	width: 100%;
+}
+
+.dataset-list-title {
+	color: black;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.dataset-list-items {
+	flex-grow: 1;
+	border-style: solid;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 10px;
+	width: 85%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.result {
+	align-self: center;
+	grid-row: span 7;
+	border-style: solid;
+	width: 75%;
+	height: 90%;
+	border-radius: 15px;
+}
+
+.result-title {
+	padding: 0px;
+	margin-bottom: 1rem;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	height: 95%;
+}
+
+.result-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.result-queries {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.author {
+	align-self: end;
+	justify-self: right;
+}
+
+.input-field {
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.actual-add-button {
+	margin: 10px;
+}
+
+th {
+	background-color: #3f51b5;
+	color: white;
+	border: 1px solid black;
+	width: 150px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+td {
+	width: 150px;
+	padding: 5px;
+}
