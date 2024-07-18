@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset invalid, find entries whose Average is greater than 99; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"invalid_avg": 99
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"invalid_dept",
+				"invalid_avg"
+			],
+			"ORDER": "invalid_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": false
+}

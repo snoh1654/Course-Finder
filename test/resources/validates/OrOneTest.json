@@ -1,0 +1,25 @@
+{
+	"title": "In sections dataset sections, find entries whose Department ends with \"j\"; show Department, Average, Instructor and Title; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"IS": {
+						"sections_dept": "*j"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": true
+}

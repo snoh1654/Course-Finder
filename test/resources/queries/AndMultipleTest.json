@@ -1,0 +1,1255 @@
+{
+	"title": "In sections dataset sections, find entries whose Department ends with \"j\" and Average is greater than 75; show Department, Average, Instructor and Title; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*j"
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 75
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.01,
+			"sections_instructor": "chaudhry, ayesha",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.04,
+			"sections_instructor": "zakiuddin, almas",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.08,
+			"sections_instructor": "",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.08,
+			"sections_instructor": "bunjun, benita",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.1,
+			"sections_instructor": "",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.14,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.25,
+			"sections_instructor": "",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.25,
+			"sections_instructor": "hunt, dallas",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.29,
+			"sections_instructor": "harris, mark",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.46,
+			"sections_instructor": "",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.46,
+			"sections_instructor": "bunjun, benita",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 75.83,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.84,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.97,
+			"sections_instructor": "",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 75.97,
+			"sections_instructor": "rymhs, deena",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.1,
+			"sections_instructor": "",
+			"sections_title": "gndr, law, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.1,
+			"sections_instructor": "cochard, renee",
+			"sections_title": "gndr, law, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.16,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.29,
+			"sections_instructor": "",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.3,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 76.31,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 76.31,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.35,
+			"sections_instructor": "",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 76.47,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 76.47,
+			"sections_instructor": "binning, sadhu",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.52,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.73,
+			"sections_instructor": "",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.73,
+			"sections_instructor": "rudrum, sarah",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 76.82,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.92,
+			"sections_instructor": "",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.92,
+			"sections_instructor": "ross, becky",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.97,
+			"sections_instructor": "",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 76.97,
+			"sections_instructor": "rymhs, deena",
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.17,
+			"sections_instructor": "",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.17,
+			"sections_instructor": "ross, becky",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.36,
+			"sections_instructor": "thobani, sunera",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.37,
+			"sections_instructor": "thobani, sunera",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.38,
+			"sections_instructor": "",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.65,
+			"sections_instructor": "kojima, dai",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.81,
+			"sections_instructor": "",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 77.93,
+			"sections_instructor": "",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78,
+			"sections_instructor": "",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78,
+			"sections_instructor": "ross, becky",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.04,
+			"sections_instructor": "",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.04,
+			"sections_instructor": "catungal, john paul",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.12,
+			"sections_instructor": "",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.12,
+			"sections_instructor": "chaudhry, ayesha",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.13,
+			"sections_instructor": "",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.13,
+			"sections_instructor": "catungal, john paul",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 78.34,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 78.38,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 78.38,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.47,
+			"sections_instructor": "",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.53,
+			"sections_instructor": "",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.54,
+			"sections_instructor": "hsu, raymond",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.55,
+			"sections_instructor": "",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.55,
+			"sections_instructor": "chatzivasileiou, evangelia",
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.73,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 78.94,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.05,
+			"sections_instructor": "thobani, sunera",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.07,
+			"sections_instructor": "macintosh, lori",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.18,
+			"sections_instructor": "",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.18,
+			"sections_instructor": "snowden, kim",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 79.2,
+			"sections_instructor": "",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 79.2,
+			"sections_instructor": "",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.3,
+			"sections_instructor": "",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.34,
+			"sections_instructor": "",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.34,
+			"sections_instructor": "thobani, sunera",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.45,
+			"sections_instructor": "",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.45,
+			"sections_instructor": "ferreira da silva, denise",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.46,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.55,
+			"sections_instructor": "zakiuddin, almas",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.65,
+			"sections_instructor": "rudrum, sarah",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 79.67,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.68,
+			"sections_instructor": "",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.68,
+			"sections_instructor": "bunjun, benita",
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.74,
+			"sections_instructor": "",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 79.95,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.03,
+			"sections_instructor": "",
+			"sections_title": "gndr, law, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.03,
+			"sections_instructor": "harris, mark",
+			"sections_title": "gndr, law, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.13,
+			"sections_instructor": "",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.13,
+			"sections_instructor": "robertson, leslie",
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.16,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.17,
+			"sections_instructor": "",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.17,
+			"sections_instructor": "snowden, kim",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.31,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.31,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.33,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.33,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.33,
+			"sections_instructor": "macintosh, lori",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.43,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.56,
+			"sections_instructor": "",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.56,
+			"sections_instructor": "rudrum, sarah",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.6,
+			"sections_instructor": "",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.6,
+			"sections_instructor": "latimer, heather",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.65,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.76,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.82,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.82,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.86,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.88,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.88,
+			"sections_instructor": "murphy, anne",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.92,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 80.96,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.96,
+			"sections_instructor": "",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 80.96,
+			"sections_instructor": "snowden, kim",
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.02,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.04,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.07,
+			"sections_instructor": "",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.07,
+			"sections_instructor": "catungal, john paul",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.17,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.25,
+			"sections_instructor": "",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.25,
+			"sections_instructor": "chatzivasileiou, evangelia",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.41,
+			"sections_instructor": "shelley, christopher",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.47,
+			"sections_instructor": "",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.47,
+			"sections_instructor": "haines-saah, rebecca",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.5,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.58,
+			"sections_instructor": "",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.58,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.64,
+			"sections_instructor": "",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.68,
+			"sections_instructor": "macintosh, lori",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.69,
+			"sections_instructor": "chaudhry, ayesha",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.7,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.7,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.91,
+			"sections_instructor": "harris, mark",
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.93,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.93,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.93,
+			"sections_instructor": "",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 81.93,
+			"sections_instructor": "chaudhry, ayesha",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 81.98,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.33,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.39,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.48,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.48,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.53,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.53,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 82.85,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83,
+			"sections_instructor": "",
+			"sections_title": "extended essay"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.03,
+			"sections_instructor": "",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.03,
+			"sections_instructor": "rudrum, sarah",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.09,
+			"sections_instructor": "",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.09,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.11,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.11,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.15,
+			"sections_instructor": "",
+			"sections_title": "grs&rep mod asia"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.15,
+			"sections_instructor": "chan, jennifer",
+			"sections_title": "grs&rep mod asia"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.19,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.33,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.33,
+			"sections_instructor": "murphy, anne",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.46,
+			"sections_instructor": "",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.46,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.54,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.63,
+			"sections_instructor": "",
+			"sections_title": "grs&rep mod asia"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.63,
+			"sections_instructor": "hsu, raymond",
+			"sections_title": "grs&rep mod asia"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.64,
+			"sections_instructor": "",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 83.64,
+			"sections_instructor": "latimer, heather",
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 83.95,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84,
+			"sections_instructor": "",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84,
+			"sections_instructor": "chatzivasileiou, evangelia",
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.13,
+			"sections_instructor": "",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.13,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.14,
+			"sections_instructor": "",
+			"sections_title": "grs&soc str asia"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.14,
+			"sections_instructor": "chan, jennifer",
+			"sections_title": "grs&soc str asia"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 84.29,
+			"sections_instructor": "",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 84.29,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.45,
+			"sections_instructor": "",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.45,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.95,
+			"sections_instructor": "",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 84.95,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.4,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.4,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.53,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.53,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.63,
+			"sections_instructor": "",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 85.63,
+			"sections_instructor": "murphy, anne",
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 85.94,
+			"sections_instructor": "",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 85.94,
+			"sections_instructor": "stewart, janice",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86,
+			"sections_instructor": "",
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86,
+			"sections_instructor": "gunew, sneja",
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86.1,
+			"sections_instructor": "",
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86.1,
+			"sections_instructor": "thobani, sunera",
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86.33,
+			"sections_instructor": "",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86.33,
+			"sections_instructor": "harris, leila",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 86.67,
+			"sections_instructor": "",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 86.67,
+			"sections_instructor": "murphy, anne",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 86.85,
+			"sections_instructor": "al-kassim, dina",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 87,
+			"sections_instructor": "",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 87,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 87.07,
+			"sections_instructor": "",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 88.32,
+			"sections_instructor": "",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 88.32,
+			"sections_instructor": "hsu, raymond",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 88.94,
+			"sections_instructor": "",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 88.94,
+			"sections_instructor": "angeles, leonora",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 89,
+			"sections_instructor": "",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 89,
+			"sections_instructor": "harris, leila",
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 89.08,
+			"sections_instructor": "",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_avg": 89.08,
+			"sections_instructor": "hundal, sukhwant",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 89.13,
+			"sections_instructor": "",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 89.13,
+			"sections_instructor": "o'riley, patricia",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 90,
+			"sections_instructor": "",
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_avg": 90,
+			"sections_instructor": "al-kassim, dina",
+			"sections_title": "gndr sex crt rce"
+		}
+	]
+}

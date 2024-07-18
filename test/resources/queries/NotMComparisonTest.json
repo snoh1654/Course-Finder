@@ -1,0 +1,5802 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is not greater than 63; show Department, Average, Instructor and Title; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"GT": {
+					"sections_avg": 63
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0,
+			"sections_instructor": "",
+			"sections_title": "in land food com"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0,
+			"sections_instructor": "",
+			"sections_title": "in land food com"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 0,
+			"sections_instructor": "",
+			"sections_title": "forest ecology"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 1,
+			"sections_instructor": "",
+			"sections_title": "prpty,ident&uses"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 4,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 4,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 4.5,
+			"sections_instructor": "bendickson, dennis",
+			"sections_title": "sustnbt&frst ops"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 33,
+			"sections_instructor": "",
+			"sections_title": "engr econ anlys"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 33.2,
+			"sections_instructor": "",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 34,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 39.03,
+			"sections_instructor": "",
+			"sections_title": "language & curr"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 39.03,
+			"sections_instructor": "james, kedrick",
+			"sections_title": "language & curr"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 42,
+			"sections_instructor": "gyenge, elod lajos",
+			"sections_title": "electrochem eng"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 42.5,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 42.64,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 42.64,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 43.33,
+			"sections_instructor": "",
+			"sections_title": "health psycholgy"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 44.88,
+			"sections_instructor": "",
+			"sections_title": "electrochem eng"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 46.33,
+			"sections_instructor": "",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 46.33,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 46.5,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 46.52,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 46.59,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 46.71,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 46.95,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 47.13,
+			"sections_instructor": "",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 47.29,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 47.82,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 48.9,
+			"sections_instructor": "walsh marr, jennifer",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 49.07,
+			"sections_instructor": "",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 49.14,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 49.15,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.17,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 49.25,
+			"sections_instructor": "",
+			"sections_title": "wtr treat&wst mg"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.47,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.47,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 49.73,
+			"sections_instructor": "ferreira, alfredo",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 49.86,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 49.95,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 50,
+			"sections_instructor": "king, mary ann",
+			"sections_title": "childhood & adol"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 50,
+			"sections_instructor": "",
+			"sections_title": "proc ctrl eng"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 50,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 50.13,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 50.85,
+			"sections_instructor": "",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 51,
+			"sections_instructor": "",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 51.04,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 51.13,
+			"sections_instructor": "walsh marr, jennifer",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 51.14,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 51.19,
+			"sections_instructor": "",
+			"sections_title": "real est dev i"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 51.25,
+			"sections_instructor": "",
+			"sections_title": "therapeutics ii"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 51.43,
+			"sections_instructor": "rajwani, aziz",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 51.49,
+			"sections_instructor": "lo, quin wai joseph",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 51.5,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 51.5,
+			"sections_instructor": "",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 51.5,
+			"sections_instructor": "",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 51.8,
+			"sections_instructor": "",
+			"sections_title": "childhood & adol"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 51.86,
+			"sections_instructor": "",
+			"sections_title": "phar chem iii"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 52.08,
+			"sections_instructor": "",
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 52.08,
+			"sections_instructor": "mansfield, shawn",
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52.2,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52.2,
+			"sections_instructor": "",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 52.29,
+			"sections_instructor": "",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52.4,
+			"sections_instructor": "lee, caleb",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 52.4,
+			"sections_instructor": "parker, bryan",
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 52.44,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52.47,
+			"sections_instructor": "",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_avg": 52.67,
+			"sections_instructor": "",
+			"sections_title": "microsys design"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_avg": 52.67,
+			"sections_instructor": "cretu, edmond",
+			"sections_title": "microsys design"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 52.69,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 52.7,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 52.86,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 52.92,
+			"sections_instructor": "raggi, miguel",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 52.96,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 53,
+			"sections_instructor": "",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 53,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;racicot, leanne;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 53.06,
+			"sections_instructor": "talpo, mattia",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 53.12,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 53.12,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 53.21,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 53.42,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 53.42,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 53.5,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 53.5,
+			"sections_instructor": "",
+			"sections_title": "18th cent genre"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 53.5,
+			"sections_instructor": "",
+			"sections_title": "18th cent genre"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 53.56,
+			"sections_instructor": "",
+			"sections_title": "psyc of gender"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 53.56,
+			"sections_instructor": "mcfarlane, jessica",
+			"sections_title": "psyc of gender"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 53.64,
+			"sections_instructor": "rea, jaclyn",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 53.73,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 53.83,
+			"sections_instructor": "",
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 53.86,
+			"sections_instructor": "",
+			"sections_title": "eng economics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 53.88,
+			"sections_instructor": "ao, weiwei",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 53.9,
+			"sections_instructor": "egerton, george w;gossen, david",
+			"sections_title": "int rel grt pwrs"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 53.91,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_avg": 54.01,
+			"sections_instructor": "peterson, jenny",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 54.13,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 54.38,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.41,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_avg": 54.43,
+			"sections_instructor": "",
+			"sections_title": "immunogenetics"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_avg": 54.43,
+			"sections_instructor": "jefferies, wilfred arthur",
+			"sections_title": "immunogenetics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.44,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.5,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.5,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.51,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.51,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.61,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.62,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.64,
+			"sections_instructor": "",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.67,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 54.77,
+			"sections_instructor": "",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.78,
+			"sections_instructor": "",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.78,
+			"sections_instructor": "",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 54.81,
+			"sections_instructor": "suzuki, michiko",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.82,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 54.96,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 54.96,
+			"sections_instructor": "",
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 55,
+			"sections_instructor": "",
+			"sections_title": "phar chem ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 55.11,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 55.19,
+			"sections_instructor": "todd, brett",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.24,
+			"sections_instructor": "chhita, sunil",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 55.25,
+			"sections_instructor": "mccutcheon, william",
+			"sections_title": "intr phys eng i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.26,
+			"sections_instructor": "andres, sebastian",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 55.27,
+			"sections_instructor": "hall, nicholas",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 55.27,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.3,
+			"sections_instructor": "hauert, christoph;namazi, hossein",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 55.31,
+			"sections_instructor": "",
+			"sections_title": "intr quantm mech"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 55.31,
+			"sections_instructor": "wang, yan",
+			"sections_title": "intr quantm mech"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 55.33,
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 55.43,
+			"sections_instructor": "walsh marr, jennifer",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 55.5,
+			"sections_instructor": "",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 55.5,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 55.63,
+			"sections_instructor": "rea, jaclyn",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.64,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.65,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 55.67,
+			"sections_instructor": "ferreira, alfredo",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 55.7,
+			"sections_instructor": "mcfarlane, jessica",
+			"sections_title": "psyc of gender"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.74,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.74,
+			"sections_instructor": "cheek, caleb",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.74,
+			"sections_instructor": "liu, keqin;peskin, laura",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 55.75,
+			"sections_instructor": "",
+			"sections_title": "soil mechanic ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.81,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 55.86,
+			"sections_instructor": "mahmood, fatimah",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 55.86,
+			"sections_instructor": "",
+			"sections_title": "foundat'n eng i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 55.95,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 55.96,
+			"sections_instructor": "macfadyen, leah",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.05,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.05,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.16,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.16,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.18,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 56.2,
+			"sections_instructor": "dake, gregory;perrin, david",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.26,
+			"sections_instructor": "frigaard, ian",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.26,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.31,
+			"sections_instructor": "dushek, omer",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 56.31,
+			"sections_instructor": "walsh marr, jennifer",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 56.33,
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 56.33,
+			"sections_instructor": "",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 56.33,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.34,
+			"sections_instructor": "heumann, jay",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.35,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 56.38,
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.38,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 56.42,
+			"sections_instructor": "savage, ken",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.43,
+			"sections_instructor": "desaulniers, shawn;leung, fok-shuen;sargent, pamela",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 56.43,
+			"sections_instructor": "lee, caleb",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 56.5,
+			"sections_instructor": "",
+			"sections_title": "engr econ anlys"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.5,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.52,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.52,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.58,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.6,
+			"sections_instructor": "kirsch, stephane",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.62,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 56.63,
+			"sections_instructor": "",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.66,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.67,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.67,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.73,
+			"sections_instructor": "",
+			"sections_title": "incom prop study"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.74,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.76,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "vant",
+			"sections_avg": 56.77,
+			"sections_instructor": "lam, mark",
+			"sections_title": "vant col project"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.77,
+			"sections_instructor": "le coz, stefan",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.83,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.83,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 56.85,
+			"sections_instructor": "hamson, dwayne",
+			"sections_title": "analys beh data"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 56.88,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 56.89,
+			"sections_instructor": "",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 56.89,
+			"sections_instructor": "lermer, leonard",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.96,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.96,
+			"sections_instructor": "usefi, hamid",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 56.96,
+			"sections_instructor": "",
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 56.96,
+			"sections_instructor": "posarac, dusko",
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57,
+			"sections_instructor": "walsh marr, jennifer",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_avg": 57,
+			"sections_instructor": "ver, leah may",
+			"sections_title": "catastroph earth"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 57,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57,
+			"sections_instructor": "",
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 57.04,
+			"sections_instructor": "",
+			"sections_title": "wood-phy dryg"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 57.04,
+			"sections_instructor": "avramidis, stavros;tannert, thomas",
+			"sections_title": "wood-phy dryg"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.04,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.1,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.11,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.12,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 57.18,
+			"sections_instructor": "kazama, misuzu",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 57.18,
+			"sections_instructor": "",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_avg": 57.2,
+			"sections_instructor": "",
+			"sections_title": "managerial econ"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 57.21,
+			"sections_instructor": "el-bezre, nazih",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.23,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.24,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 57.25,
+			"sections_instructor": "rajwani, aziz",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 57.25,
+			"sections_instructor": "burnell, e elliott;lekhi, priya",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.26,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57.27,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.32,
+			"sections_instructor": "abbaspour, hesam",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 57.32,
+			"sections_instructor": "savage, ken",
+			"sections_title": "fund cell bio"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.33,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57.33,
+			"sections_instructor": "ferreira, alfredo",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_avg": 57.33,
+			"sections_instructor": "lovins, christopher",
+			"sections_title": "intr modern asia"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 57.35,
+			"sections_instructor": "sassani, farrokh",
+			"sections_title": "mech of material"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.35,
+			"sections_instructor": "",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.37,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57.38,
+			"sections_instructor": "hellwig, cornelie emma soelie",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 57.4,
+			"sections_instructor": "",
+			"sections_title": "comp materials"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 57.4,
+			"sections_instructor": "poursartip, anoshiravan",
+			"sections_title": "comp materials"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.4,
+			"sections_instructor": "",
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.42,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.42,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.44,
+			"sections_instructor": "",
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 57.48,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 57.5,
+			"sections_instructor": "marshall, peter",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.52,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.56,
+			"sections_instructor": "pirvu, traian",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.56,
+			"sections_instructor": "duncan, alexander",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.56,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 57.68,
+			"sections_instructor": "berndt, annette",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.69,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 57.71,
+			"sections_instructor": "tsuda, asami",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57.72,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.78,
+			"sections_instructor": "",
+			"sections_title": "abstr linear alg"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.78,
+			"sections_instructor": "souto clement, juan",
+			"sections_title": "abstr linear alg"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.78,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 57.79,
+			"sections_instructor": "murphy, mike",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 57.81,
+			"sections_instructor": "berndt, annette",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.82,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.82,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 57.84,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.88,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.93,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.98,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 58,
+			"sections_instructor": "",
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_avg": 58,
+			"sections_instructor": "",
+			"sections_title": "physics lab tech"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_avg": 58,
+			"sections_instructor": "waltham, christopher",
+			"sections_title": "physics lab tech"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 58,
+			"sections_instructor": "",
+			"sections_title": "iss first ntns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.03,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.04,
+			"sections_instructor": "nec, yana",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.04,
+			"sections_instructor": "lo, quin wai joseph",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.04,
+			"sections_instructor": "",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.04,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.06,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.13,
+			"sections_instructor": "cheviakov, alexei",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.13,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.16,
+			"sections_instructor": "",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 58.16,
+			"sections_instructor": "",
+			"sections_title": "phys & org chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 58.16,
+			"sections_instructor": "crane, angela;wang, yan",
+			"sections_title": "phys & org chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.19,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_avg": 58.23,
+			"sections_instructor": "",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.24,
+			"sections_instructor": "",
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.24,
+			"sections_instructor": "vatsal, vinayak",
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 58.24,
+			"sections_instructor": "dixon, joy",
+			"sections_title": "tpcs world hist"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.25,
+			"sections_instructor": "norwood, peter",
+			"sections_title": "intr mgmt acct"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.26,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.27,
+			"sections_instructor": "cai, shuang",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.28,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.29,
+			"sections_instructor": "",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.29,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.3,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.32,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.32,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 58.33,
+			"sections_instructor": "chen chai, susan m.c.",
+			"sections_title": "class piano ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.38,
+			"sections_instructor": "leung, fok-shuen",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.39,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_avg": 58.4,
+			"sections_instructor": "",
+			"sections_title": "oral micr&immun"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.42,
+			"sections_instructor": "leung, fok-shuen;sargent, pamela;tba",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.43,
+			"sections_instructor": "steinberg, david",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 58.43,
+			"sections_instructor": "bowers, fred;bowers, sarah",
+			"sections_title": "traditnl grammar"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.45,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 58.47,
+			"sections_instructor": "mahmood, fatimah",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 58.47,
+			"sections_instructor": "",
+			"sections_title": "hist post 1900"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 58.47,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist post 1900"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.52,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.53,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 58.57,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.6,
+			"sections_instructor": "nec, yana",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.6,
+			"sections_instructor": "rosales, leo",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 58.6,
+			"sections_instructor": "todd, brett",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 58.6,
+			"sections_instructor": "dake, gregory;tanner, martin",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.6,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 58.62,
+			"sections_instructor": "laval, bernard",
+			"sections_title": "fluid mech i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.62,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.64,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.64,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 58.72,
+			"sections_instructor": "",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.72,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.72,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 58.73,
+			"sections_instructor": "roberts, duff",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 58.75,
+			"sections_instructor": "",
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 58.75,
+			"sections_instructor": "ciufolini, marco",
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.76,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.8,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.82,
+			"sections_instructor": "goldlist, amy",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 58.87,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.88,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.89,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 58.9,
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.9,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.9,
+			"sections_instructor": "cernele, shane",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 58.9,
+			"sections_instructor": "savage, ken",
+			"sections_title": "fund cell bio"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 58.91,
+			"sections_instructor": "rajwani, aziz",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 58.92,
+			"sections_instructor": "el-bezre, nazih",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 58.94,
+			"sections_instructor": "hamson, dwayne",
+			"sections_title": "analys beh data"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.96,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.96,
+			"sections_instructor": "williams, thomas",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.97,
+			"sections_instructor": "cook, brian",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 59,
+			"sections_instructor": "konoval, michael brandon",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59,
+			"sections_instructor": "zhao, mingfeng",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 59,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.04,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.04,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_avg": 59.06,
+			"sections_instructor": "",
+			"sections_title": "ling thry&anl ii"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_avg": 59.06,
+			"sections_instructor": "bliss, heather",
+			"sections_title": "ling thry&anl ii"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 59.08,
+			"sections_instructor": "savage, ken",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 59.11,
+			"sections_instructor": "landry, dana",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.11,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.13,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 59.13,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.14,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.14,
+			"sections_instructor": "sinclair, chadwick",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.14,
+			"sections_instructor": "norwood, peter",
+			"sections_title": "intr mgmt acct"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.18,
+			"sections_instructor": "shih, chih wen",
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.2,
+			"sections_instructor": "burghelea, teodor",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.23,
+			"sections_instructor": "lee, caleb",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.23,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.23,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 59.23,
+			"sections_instructor": "",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.24,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 59.29,
+			"sections_instructor": "",
+			"sections_title": "phar chem ii"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 59.31,
+			"sections_instructor": "krzic, maja",
+			"sections_title": "intr soil scie"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.32,
+			"sections_instructor": "peterson, dale",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.32,
+			"sections_instructor": "wong, tom",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.33,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.33,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 59.35,
+			"sections_instructor": "",
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 59.35,
+			"sections_instructor": "gyenge, elod lajos",
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 59.35,
+			"sections_instructor": "savage, ken",
+			"sections_title": "fund cell bio"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.36,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.37,
+			"sections_instructor": "rose, michael",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.39,
+			"sections_instructor": "cernele, shane",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.39,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 59.4,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.4,
+			"sections_instructor": "goodman, jesse",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.41,
+			"sections_instructor": "blunk, mark",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.43,
+			"sections_instructor": "",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.43,
+			"sections_instructor": "murphy, mike",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 59.44,
+			"sections_instructor": "el-bezre, nazih",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.45,
+			"sections_instructor": "jetter, reinhard;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 59.45,
+			"sections_instructor": "couch, brett",
+			"sections_title": "gentcs ecol&evol"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.47,
+			"sections_instructor": "",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.47,
+			"sections_instructor": "militzer, matthias",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.49,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 59.5,
+			"sections_instructor": "",
+			"sections_title": "pharmacology ii"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 59.5,
+			"sections_instructor": "",
+			"sections_title": "foundat'n eng i"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.53,
+			"sections_instructor": "murphy, mike",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.56,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.57,
+			"sections_instructor": "shaw, amber",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.59,
+			"sections_instructor": "walls, patrick",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.6,
+			"sections_instructor": "duman, ali",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.6,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_avg": 59.61,
+			"sections_instructor": "",
+			"sections_title": "begin germ 2"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.63,
+			"sections_instructor": "",
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.64,
+			"sections_instructor": "",
+			"sections_title": "met thermodyn ii"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.64,
+			"sections_instructor": "cockcroft, steven",
+			"sections_title": "met thermodyn ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.64,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.64,
+			"sections_instructor": "rose, simon",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.66,
+			"sections_instructor": "",
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.66,
+			"sections_instructor": "ciufolini, marco",
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.66,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.67,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 59.67,
+			"sections_instructor": "bendickson, dennis",
+			"sections_title": "harvest syst&ops"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 59.67,
+			"sections_instructor": "",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 59.71,
+			"sections_instructor": "",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 59.71,
+			"sections_instructor": "mansfield, shawn",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.72,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.73,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.73,
+			"sections_instructor": "li, dong",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.74,
+			"sections_instructor": "bradshaw, zachary",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.74,
+			"sections_instructor": "",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.74,
+			"sections_instructor": "wei, xiaoxi tereza",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.76,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.76,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.78,
+			"sections_instructor": "israel, robert b",
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.8,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.8,
+			"sections_instructor": "martin, gregory",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.8,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 59.8,
+			"sections_instructor": "",
+			"sections_title": "electrochem eng"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 59.8,
+			"sections_instructor": "gyenge, elod lajos",
+			"sections_title": "electrochem eng"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.83,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.83,
+			"sections_instructor": "",
+			"sections_title": "nuclear chemisty"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.83,
+			"sections_instructor": "fleming, donald",
+			"sections_title": "nuclear chemisty"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.83,
+			"sections_instructor": "",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.83,
+			"sections_instructor": "",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 59.83,
+			"sections_instructor": "addison, christopher;lekhi, priya",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.85,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.85,
+			"sections_instructor": "leung, fok-shuen;wong, tom",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.85,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.86,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 59.91,
+			"sections_instructor": "tait, david e n",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 59.92,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 59.93,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 59.93,
+			"sections_instructor": "sato, akiko",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.97,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.97,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.98,
+			"sections_instructor": "",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 59.98,
+			"sections_instructor": "militzer, matthias",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.99,
+			"sections_instructor": "brosnan, patrick",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "test",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": ""
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 60,
+			"sections_instructor": "jackson, howard",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "pharmacy ii"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "int rel grt pwrs"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "oral micr&immun"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "oral micr&immun"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "oral epidemiolgy"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "nuclear chemisty"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60,
+			"sections_instructor": "fleming, donald",
+			"sections_title": "nuclear chemisty"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.01,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 60.04,
+			"sections_instructor": "",
+			"sections_title": "hist of opera i"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 60.04,
+			"sections_instructor": "butler, gregory g",
+			"sections_title": "hist of opera i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.04,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.04,
+			"sections_instructor": "",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.04,
+			"sections_instructor": "lyons, charles",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.04,
+			"sections_instructor": "meyer, aurel",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.04,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.04,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_avg": 60.05,
+			"sections_instructor": "",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_avg": 60.05,
+			"sections_instructor": "pokotylo, david",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.08,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_avg": 60.09,
+			"sections_instructor": "peterson, jenny",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 60.09,
+			"sections_instructor": "bushe, william kendal",
+			"sections_title": "heat transfer i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.1,
+			"sections_instructor": "sadel, christian",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.12,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.12,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 60.14,
+			"sections_instructor": "burkholder, leslie",
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.14,
+			"sections_instructor": "karli, deniz",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.15,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.15,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.17,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.17,
+			"sections_instructor": "luoto, kurt",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.18,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.18,
+			"sections_instructor": "",
+			"sections_title": "incom prop study"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 60.2,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.21,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.21,
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.22,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.22,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.23,
+			"sections_instructor": "",
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_dept": "surg",
+			"sections_avg": 60.25,
+			"sections_instructor": "",
+			"sections_title": "global disabilit"
+		},
+		{
+			"sections_dept": "surg",
+			"sections_avg": 60.25,
+			"sections_instructor": "taylor, robert",
+			"sections_title": "global disabilit"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 60.28,
+			"sections_instructor": "murphy, mike",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.29,
+			"sections_instructor": "smith, matthew",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.29,
+			"sections_instructor": "",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 60.29,
+			"sections_instructor": "",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.32,
+			"sections_instructor": "",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.33,
+			"sections_instructor": "karli, deniz",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.34,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.34,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.36,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.37,
+			"sections_instructor": "prat, alain",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.39,
+			"sections_instructor": "piccolo, costanza",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.41,
+			"sections_instructor": "graham, ben",
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.41,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.41,
+			"sections_instructor": "",
+			"sections_title": "real est devl 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.43,
+			"sections_instructor": "silberman, lior",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.43,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.44,
+			"sections_instructor": "zhao, mingfeng",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 60.45,
+			"sections_instructor": "egerton, george w;gossen, david",
+			"sections_title": "int rel grt pwrs"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.46,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.46,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.48,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.49,
+			"sections_instructor": "",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 60.5,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.5,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.5,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "integ chem lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.5,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.52,
+			"sections_instructor": "",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.52,
+			"sections_instructor": "lyons, charles",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 60.52,
+			"sections_instructor": "kerr, randall",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.53,
+			"sections_instructor": "culibrk, ana",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.54,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.55,
+			"sections_instructor": "israel, robert b",
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.55,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.55,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 60.56,
+			"sections_instructor": "",
+			"sections_title": "wood-phy dryg"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 60.56,
+			"sections_instructor": "avramidis, stavros",
+			"sections_title": "wood-phy dryg"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.56,
+			"sections_instructor": "hamieh, alia",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.56,
+			"sections_instructor": "",
+			"sections_title": "real est dev i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.56,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.58,
+			"sections_instructor": "rechnitzer, andrew",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.58,
+			"sections_instructor": "abbaspour, hesam",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 60.59,
+			"sections_instructor": "",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 60.59,
+			"sections_instructor": "militzer, matthias",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 60.6,
+			"sections_instructor": "",
+			"sections_title": "stoch signal&sys"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 60.6,
+			"sections_instructor": "krishnamurthy, vikram;zamar, ruben",
+			"sections_title": "stoch signal&sys"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.61,
+			"sections_instructor": "",
+			"sections_title": "real est dev i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.62,
+			"sections_instructor": "loewen, philip;paton, kelly",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.66,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.66,
+			"sections_instructor": "lamm, tobias",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.67,
+			"sections_instructor": "hua, zheng",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_avg": 60.67,
+			"sections_instructor": "gorrie, charmaine",
+			"sections_title": "2yr latin i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.67,
+			"sections_instructor": "herring, f geoffrey;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.67,
+			"sections_instructor": "newton, sanuel",
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.68,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.68,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.69,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.69,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.69,
+			"sections_instructor": "",
+			"sections_title": "cptl mrkts&rl es"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.69,
+			"sections_instructor": "",
+			"sections_title": "cptl mrkts&rl es"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 60.7,
+			"sections_instructor": "egerton, george w;gossen, david",
+			"sections_title": "int rel grt pwrs"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.7,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.7,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 60.71,
+			"sections_instructor": "koizumi, keiko",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.72,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 60.73,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 60.73,
+			"sections_instructor": "maalekian, mehran",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.73,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.74,
+			"sections_instructor": "griesmer, john",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.74,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_avg": 60.75,
+			"sections_instructor": "",
+			"sections_title": "managerial econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.75,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.76,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 60.77,
+			"sections_instructor": "",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 60.79,
+			"sections_instructor": "barnes, steven;lam, mark",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 60.8,
+			"sections_instructor": "watts, susan",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.81,
+			"sections_instructor": "stewart, jaclyn;withers, stephen",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 60.83,
+			"sections_instructor": "",
+			"sections_title": "intr indig study"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.84,
+			"sections_instructor": "li, dong",
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.84,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.85,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.86,
+			"sections_instructor": "magyar, akos",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 60.86,
+			"sections_instructor": "gooding, richard;potter, tiffany",
+			"sections_title": "18th cent genre"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.87,
+			"sections_instructor": "hamieh, alia",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.87,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.88,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.88,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 60.89,
+			"sections_instructor": "roberts, cheryl",
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.9,
+			"sections_instructor": "yeager, elyse",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.91,
+			"sections_instructor": "burda, yuri",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.92,
+			"sections_instructor": "",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.92,
+			"sections_instructor": "lermer, leonard",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.96,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.96,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 60.97,
+			"sections_instructor": "perrin, david;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.97,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.97,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 60.97,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.98,
+			"sections_instructor": "peterson, dale",
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 61,
+			"sections_instructor": "",
+			"sections_title": "prpty,ident&uses"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 61,
+			"sections_instructor": "",
+			"sections_title": "matls in design"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 61,
+			"sections_instructor": "sinclair, chadwick",
+			"sections_title": "matls in design"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_avg": 61,
+			"sections_instructor": "",
+			"sections_title": "1st yr ital ii"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 61,
+			"sections_instructor": "",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 61,
+			"sections_instructor": "mansfield, shawn",
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_avg": 61,
+			"sections_instructor": "ver, leah may",
+			"sections_title": "catastroph earth"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 61,
+			"sections_instructor": "",
+			"sections_title": ""
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 61.03,
+			"sections_instructor": "karaman chaparenco, julio omar;manchon, enrique",
+			"sections_title": "beginner span i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.03,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 61.04,
+			"sections_instructor": "",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 61.04,
+			"sections_instructor": "endo, paul",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 61.04,
+			"sections_instructor": "malhotra, nisha",
+			"sections_title": "princpl macrecon"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.1,
+			"sections_instructor": "pfeiffer, hendryk",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.11,
+			"sections_instructor": "piccolo, costanza",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.11,
+			"sections_instructor": "riccardi, daniel",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.11,
+			"sections_instructor": "savage, ken",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.14,
+			"sections_instructor": "vanderlei, benjamin",
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.15,
+			"sections_instructor": "lam, nguyen hoang",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 61.17,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.18,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.2,
+			"sections_instructor": "heumann, jay",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.2,
+			"sections_instructor": "",
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.2,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "rmst",
+			"sections_avg": 61.21,
+			"sections_instructor": "",
+			"sections_title": "lit&cult rmnc ii"
+		},
+		{
+			"sections_dept": "rmst",
+			"sections_avg": 61.21,
+			"sections_instructor": "testa, carlo",
+			"sections_title": "lit&cult rmnc ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.21,
+			"sections_instructor": "",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.21,
+			"sections_instructor": "khosravi, mahta",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.21,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.24,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.25,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.25,
+			"sections_instructor": "riccardi, daniel",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.25,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.26,
+			"sections_instructor": "peterson, dale",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.26,
+			"sections_instructor": "schwartz, ryan",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.27,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.27,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.28,
+			"sections_instructor": "angel, omer",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.28,
+			"sections_instructor": "combariza, german",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 61.29,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.31,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_avg": 61.32,
+			"sections_instructor": "peterson, jenny",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.32,
+			"sections_instructor": "parker, bryan",
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.32,
+			"sections_instructor": "",
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.32,
+			"sections_instructor": "kion, tracy",
+			"sections_title": "biol bact cell"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 61.33,
+			"sections_instructor": "scratchley, linda",
+			"sections_title": "analys beh data"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.33,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.35,
+			"sections_instructor": "ruping, henrik",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.35,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.35,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 61.36,
+			"sections_instructor": "gorzalka, boris",
+			"sections_title": "brain & behviour"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.36,
+			"sections_instructor": "khatirinejad, mahdad",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_avg": 61.36,
+			"sections_instructor": "",
+			"sections_title": "beginner fren ii"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.37,
+			"sections_instructor": "perrin, david;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.38,
+			"sections_instructor": "stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 61.39,
+			"sections_instructor": "manchon, enrique;mohamed, dooa magdy",
+			"sections_title": "beginner span i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.4,
+			"sections_instructor": "cadman, charles",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.43,
+			"sections_instructor": "hellwig, cornelie emma soelie",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.43,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 61.44,
+			"sections_instructor": "chiao, mu",
+			"sections_title": "mech materials"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.44,
+			"sections_instructor": "kunz, tamara;lekhi, priya",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.45,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 61.45,
+			"sections_instructor": "",
+			"sections_title": "hmn mot behav ii"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_avg": 61.46,
+			"sections_instructor": "lovins, christopher",
+			"sections_title": "intr modern asia"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.47,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.47,
+			"sections_instructor": "hawkes, michael",
+			"sections_title": "gentcs ecol&evol"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.48,
+			"sections_instructor": "nguyen, dong quan",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.48,
+			"sections_instructor": "crane, angela",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.48,
+			"sections_instructor": "legzdins, peter",
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.48,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.49,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 61.5,
+			"sections_instructor": "marshall, peter",
+			"sections_title": "intgr res man i"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_avg": 61.5,
+			"sections_instructor": "",
+			"sections_title": "managerial econ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.51,
+			"sections_instructor": "gurel-gurevich, ori",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.51,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.52,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 61.53,
+			"sections_instructor": "gorzalka, boris",
+			"sections_title": "brain & behviour"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.53,
+			"sections_instructor": "yilmaz, ozgur",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 61.53,
+			"sections_instructor": "",
+			"sections_title": "anl mthd frst hy"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 61.53,
+			"sections_instructor": "alila, younes",
+			"sections_title": "anl mthd frst hy"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.54,
+			"sections_instructor": "mcintosh, lawrence",
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 61.55,
+			"sections_instructor": "",
+			"sections_title": "transport phen i"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 61.55,
+			"sections_instructor": "alfantazi, akram",
+			"sections_title": "transport phen i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.55,
+			"sections_instructor": "",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.55,
+			"sections_instructor": "lyons, charles",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.56,
+			"sections_instructor": "bennoun, steve",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.56,
+			"sections_instructor": "",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.57,
+			"sections_instructor": "nec, yana",
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.58,
+			"sections_instructor": "maclean, mark thomson;tba",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_avg": 61.58,
+			"sections_instructor": "jaeger, carol patricia",
+			"sections_title": "eng electrmgntcs"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.59,
+			"sections_instructor": "beatty, thomas j.;berezowsky, craig m s;grigliatti, thomas;haughn, george",
+			"sections_title": "molecular gen"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.6,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.62,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.62,
+			"sections_instructor": "leung, fok-shuen",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.62,
+			"sections_instructor": "",
+			"sections_title": "org chem engneer"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.62,
+			"sections_instructor": "tanner, martin",
+			"sections_title": "org chem engneer"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 61.63,
+			"sections_instructor": "rea, jaclyn",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.63,
+			"sections_instructor": "chen, jingyi",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.65,
+			"sections_instructor": "chau, albert",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.65,
+			"sections_instructor": "",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.66,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.66,
+			"sections_instructor": "lekhi, priya",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 61.67,
+			"sections_instructor": "",
+			"sections_title": "int stat infernc"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 61.67,
+			"sections_instructor": "petkau, a john",
+			"sections_title": "int stat infernc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.67,
+			"sections_instructor": "kitagawa, jun",
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.67,
+			"sections_instructor": "",
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.68,
+			"sections_instructor": "klaus, michele",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_avg": 61.68,
+			"sections_instructor": "lampe, lutz",
+			"sections_title": "signals & system"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.68,
+			"sections_instructor": "berger, james",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.69,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.69,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.69,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 61.69,
+			"sections_instructor": "",
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 61.69,
+			"sections_instructor": "mansfield, shawn;singh, santokh",
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.7,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 61.71,
+			"sections_instructor": "stewart, jaclyn;withers, stephen",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 61.71,
+			"sections_instructor": "redfield, rosemary",
+			"sections_title": "eco gen evol"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.75,
+			"sections_instructor": "",
+			"sections_title": "real analysis ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.75,
+			"sections_instructor": "",
+			"sections_title": "real analysis ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.75,
+			"sections_instructor": "sheshmani, artan",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.75,
+			"sections_instructor": "yeager, elyse",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_avg": 61.75,
+			"sections_instructor": "",
+			"sections_title": "managerial econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.75,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.76,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.76,
+			"sections_instructor": "",
+			"sections_title": "europe 19th cent"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.76,
+			"sections_instructor": "fudge, john",
+			"sections_title": "europe 19th cent"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.78,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.79,
+			"sections_instructor": "",
+			"sections_title": "intr probability"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.79,
+			"sections_instructor": "rath, balazs",
+			"sections_title": "intr probability"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 61.8,
+			"sections_instructor": "",
+			"sections_title": "therapeutics iii"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 61.8,
+			"sections_instructor": "",
+			"sections_title": "fund inj biomech"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 61.8,
+			"sections_instructor": "d'entremont, agnes",
+			"sections_title": "fund inj biomech"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.8,
+			"sections_instructor": "au-yeung, enrico",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.8,
+			"sections_instructor": "chen, jingyi",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.81,
+			"sections_instructor": "",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.81,
+			"sections_instructor": "lyons, charles",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 61.81,
+			"sections_instructor": "ferreira, alfredo",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 61.82,
+			"sections_instructor": "",
+			"sections_title": "hist music ii"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 61.82,
+			"sections_instructor": "butler, gregory g",
+			"sections_title": "hist music ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.82,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.82,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.82,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.83,
+			"sections_instructor": "",
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.83,
+			"sections_instructor": "loewen, philip",
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.83,
+			"sections_instructor": "troupe, lee",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.83,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.84,
+			"sections_instructor": "maclean, mark thomson",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.86,
+			"sections_instructor": "woodford, roger",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.87,
+			"sections_instructor": "folz, matthew",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.88,
+			"sections_instructor": "maciejewski, wes",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.89,
+			"sections_instructor": "",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 61.89,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.91,
+			"sections_instructor": "hua, zheng",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.92,
+			"sections_instructor": "cook, brian",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 61.92,
+			"sections_instructor": "watai, fumiko",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.93,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.94,
+			"sections_instructor": "pfeiffer, hendryk",
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.94,
+			"sections_instructor": "",
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.94,
+			"sections_instructor": "vatsal, vinayak",
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.95,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 61.96,
+			"sections_instructor": "",
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 61.96,
+			"sections_instructor": "campbell, chuck",
+			"sections_title": "adv accounting"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.97,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_avg": 61.97,
+			"sections_instructor": "weatherby, maria",
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 61.97,
+			"sections_instructor": "",
+			"sections_title": "int stra think"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "physcal cosmolgy"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 62,
+			"sections_instructor": "van waerbeke, ludovic",
+			"sections_title": "physcal cosmolgy"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62,
+			"sections_instructor": "sinclair, chadwick",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "immunogenetics"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_avg": 62,
+			"sections_instructor": "jefferies, wilfred arthur",
+			"sections_title": "immunogenetics"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 62,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62,
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "appl linear algb"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62,
+			"sections_instructor": "gaston, christopher",
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 62,
+			"sections_instructor": "",
+			"sections_title": "iss indig educ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.02,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.03,
+			"sections_instructor": "",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.03,
+			"sections_instructor": "rogers, christine",
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.04,
+			"sections_instructor": "endo, paul",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.05,
+			"sections_instructor": "",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.05,
+			"sections_instructor": "alshwawreh, nidal",
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 62.06,
+			"sections_instructor": "scratchley, linda",
+			"sections_title": "analys beh data"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.06,
+			"sections_instructor": "chau, albert",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.06,
+			"sections_instructor": "brocklebank, lisa",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.06,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "vant",
+			"sections_avg": 62.07,
+			"sections_instructor": "lam, mark;mcphee, siobhan;pickren, graham",
+			"sections_title": "vant col project"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.07,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.07,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.08,
+			"sections_instructor": "barry, anna",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.08,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 62.09,
+			"sections_instructor": "manchon, enrique;tba",
+			"sections_title": "beginner span ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.1,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.12,
+			"sections_instructor": "hua, zheng",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 62.12,
+			"sections_instructor": "",
+			"sections_title": "hmn mot behav ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.13,
+			"sections_instructor": "peirce, anthony",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.14,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.14,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.14,
+			"sections_instructor": "",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.15,
+			"sections_instructor": "devyver, baptiste",
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.15,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.16,
+			"sections_instructor": "lefebvre, jerome",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.16,
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.17,
+			"sections_instructor": "cheng, man chuen",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.17,
+			"sections_instructor": "rogers, christine;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.18,
+			"sections_instructor": "",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.18,
+			"sections_instructor": "lyons, charles",
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 62.18,
+			"sections_instructor": "gradin, christopher",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 62.18,
+			"sections_instructor": "koizumi, keiko",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.19,
+			"sections_instructor": "",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.19,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.19,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 62.2,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.2,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.21,
+			"sections_instructor": "silberman, lior",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.21,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.21,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 62.22,
+			"sections_instructor": "",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_avg": 62.22,
+			"sections_instructor": "barnes, trevor;ley, david frederick",
+			"sections_title": "geog mod glob ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.22,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.22,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.25,
+			"sections_instructor": "",
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.25,
+			"sections_instructor": "",
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.25,
+			"sections_instructor": "gaston, christopher",
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.26,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.27,
+			"sections_instructor": "",
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_avg": 62.27,
+			"sections_instructor": "harlow, francesca",
+			"sections_title": "intr trdtl asia"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.28,
+			"sections_instructor": "",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.28,
+			"sections_instructor": "sinclair, chadwick",
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_avg": 62.28,
+			"sections_instructor": "",
+			"sections_title": "flds and fluxes"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_avg": 62.28,
+			"sections_instructor": "schoof, christian",
+			"sections_title": "flds and fluxes"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.28,
+			"sections_instructor": "wang, yan",
+			"sections_title": "chem for engr"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.28,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.28,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.29,
+			"sections_instructor": "chen, jingyi",
+			"sections_title": "math proof"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.29,
+			"sections_instructor": "vatsal, vinayak",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.3,
+			"sections_instructor": "ward, michael jeffrey",
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.3,
+			"sections_instructor": "clarkson, james",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 62.31,
+			"sections_instructor": "hanson, laura",
+			"sections_title": "brain & behviour"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.32,
+			"sections_instructor": "peterson, dale",
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_avg": 62.33,
+			"sections_instructor": "",
+			"sections_title": "human pharmclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_avg": 62.33,
+			"sections_instructor": "pang, catherine c",
+			"sections_title": "human pharmclgy"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.33,
+			"sections_instructor": "",
+			"sections_title": "computer ap frst"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.33,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.33,
+			"sections_instructor": "",
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.33,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.34,
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_avg": 62.35,
+			"sections_instructor": "o'brien, juliet",
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.35,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.37,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 62.37,
+			"sections_instructor": "berndt, annette",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.38,
+			"sections_instructor": "magyar, akos",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.38,
+			"sections_instructor": "tait, david e n",
+			"sections_title": "computer ap frst"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 62.4,
+			"sections_instructor": "",
+			"sections_title": "hist music ii"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 62.4,
+			"sections_instructor": "butler, gregory g",
+			"sections_title": "hist music ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.4,
+			"sections_instructor": "zwiers, ian",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.4,
+			"sections_instructor": "",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.4,
+			"sections_instructor": "leblanc, michael",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.4,
+			"sections_instructor": "",
+			"sections_title": "real est dev i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.4,
+			"sections_instructor": "",
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.41,
+			"sections_instructor": "allard, jun",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.43,
+			"sections_instructor": "",
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 62.44,
+			"sections_instructor": "thieme, katja",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.44,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.44,
+			"sections_instructor": "piccolo, costanza",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.45,
+			"sections_instructor": "hart, r alexander",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.45,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.46,
+			"sections_instructor": "kim, djun m",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 62.46,
+			"sections_instructor": "gossen, david",
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.46,
+			"sections_instructor": "hawkes, michael",
+			"sections_title": "gentcs ecol&evol"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.47,
+			"sections_instructor": "leung, fok-shuen;sargent, pamela;wong, tom",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.48,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.48,
+			"sections_instructor": "",
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_dept": "obst",
+			"sections_avg": 62.5,
+			"sections_instructor": "",
+			"sections_title": "physlgy m/f/nbrn"
+		},
+		{
+			"sections_dept": "obst",
+			"sections_avg": 62.5,
+			"sections_instructor": "rurak, danny",
+			"sections_title": "physlgy m/f/nbrn"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_avg": 62.5,
+			"sections_instructor": "",
+			"sections_title": "astronomical lab"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_avg": 62.5,
+			"sections_instructor": "stairs, ingrid",
+			"sections_title": "astronomical lab"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.51,
+			"sections_instructor": "",
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.51,
+			"sections_instructor": "",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.51,
+			"sections_instructor": "piccolo, costanza",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.52,
+			"sections_instructor": "liu, keqin",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.53,
+			"sections_instructor": "sibilla, nicolo",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.53,
+			"sections_instructor": "",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.53,
+			"sections_instructor": "kitagawa, jun",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.53,
+			"sections_instructor": "newton, sanuel",
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 62.53,
+			"sections_instructor": "",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.54,
+			"sections_instructor": "",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.54,
+			"sections_instructor": "berger, james",
+			"sections_title": "fund cell bio"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 62.54,
+			"sections_instructor": "",
+			"sections_title": "weed science"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_avg": 62.54,
+			"sections_instructor": "upadhyaya, mahesh",
+			"sections_title": "weed science"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.55,
+			"sections_instructor": "dake, gregory;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 62.57,
+			"sections_instructor": "ahmad, rana",
+			"sections_title": "intr philsphy ii"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.57,
+			"sections_instructor": "",
+			"sections_title": "ceramics"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.57,
+			"sections_instructor": "troczynski, tom",
+			"sections_title": "ceramics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.57,
+			"sections_instructor": "feldman, joel",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_avg": 62.58,
+			"sections_instructor": "ponzetti, james joseph",
+			"sections_title": "parent-child rel"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.58,
+			"sections_instructor": "sinclair, scott",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.59,
+			"sections_instructor": "",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.59,
+			"sections_instructor": "redfield, rosemary",
+			"sections_title": "eco gen evol"
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 62.6,
+			"sections_instructor": "manchon, enrique",
+			"sections_title": "beginner span ii"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.6,
+			"sections_instructor": "",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 62.62,
+			"sections_instructor": "",
+			"sections_title": "fluid mechanics"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 62.62,
+			"sections_instructor": "frigaard, ian",
+			"sections_title": "fluid mechanics"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.62,
+			"sections_instructor": "",
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_avg": 62.63,
+			"sections_instructor": "redenbach, darlene",
+			"sections_title": "n-anat a&sl path"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 62.64,
+			"sections_instructor": "",
+			"sections_title": "prnc muscl form"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 62.64,
+			"sections_instructor": "roeder, john barlow",
+			"sections_title": "prnc muscl form"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.64,
+			"sections_instructor": "alila, younes",
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.65,
+			"sections_instructor": "pramanik, malabika",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 62.66,
+			"sections_instructor": "clarke, roger;margolis, eric;viera, gerardo alberto",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.66,
+			"sections_instructor": "mansour, hassan",
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.66,
+			"sections_instructor": "",
+			"sections_title": "gentcs ecol&evol"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_avg": 62.67,
+			"sections_instructor": "ollivier-gooch, carl",
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 62.68,
+			"sections_instructor": "manchon, enrique;rodriguez, juan carlos",
+			"sections_title": "beginner span i"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.68,
+			"sections_instructor": "hart, r alexander",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 62.69,
+			"sections_instructor": "dunham, bruce",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 62.69,
+			"sections_instructor": "",
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_avg": 62.7,
+			"sections_instructor": "peterson, jenny",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 62.71,
+			"sections_instructor": "albarran-caselles, olga;spacciante, stephanie",
+			"sections_title": "intermed span i"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 62.72,
+			"sections_instructor": "fannin, r jonathan;taiebat, mahdi",
+			"sections_title": "soil mech i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.73,
+			"sections_instructor": "mantilla-soler, guillermo",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_avg": 62.73,
+			"sections_instructor": "duggan, maryse",
+			"sections_title": "french grammar"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.74,
+			"sections_instructor": "das, raibatak",
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 62.74,
+			"sections_instructor": "suzuki, michiko",
+			"sections_title": "in begin japn i"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.74,
+			"sections_instructor": "hart, r alexander",
+			"sections_title": "lit canada"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_avg": 62.74,
+			"sections_instructor": "",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_avg": 62.74,
+			"sections_instructor": "wilson, roger",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_avg": 62.75,
+			"sections_instructor": "barnes, trevor;ley, david frederick",
+			"sections_title": "geog mod glob ii"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.75,
+			"sections_instructor": "roberts, duff",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 62.75,
+			"sections_instructor": "wesley, saylesh gordon michael",
+			"sections_title": "intr first natns"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 62.75,
+			"sections_instructor": "",
+			"sections_title": "trans phenmna ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.76,
+			"sections_instructor": "samuels, charles",
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.76,
+			"sections_instructor": "campbell, chuck",
+			"sections_title": "adv accounting"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.77,
+			"sections_instructor": "ruddick, john n r;stewart, jaclyn",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.79,
+			"sections_instructor": "maciejewski, wes;yilmaz, ozgur",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.79,
+			"sections_instructor": "adamson, martin",
+			"sections_title": "eco gen evol"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 62.8,
+			"sections_instructor": "ode, maki",
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.8,
+			"sections_instructor": "",
+			"sections_title": "frst entomology"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.8,
+			"sections_instructor": "mclean, john a",
+			"sections_title": "frst entomology"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 62.8,
+			"sections_instructor": "jackes, robert",
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.8,
+			"sections_instructor": "bussiere, guillaume;monga, vishakha;rogers, christine;stoodley, robin",
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_avg": 62.81,
+			"sections_instructor": "bovis, michael j",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.82,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.82,
+			"sections_instructor": "rolfsen, dale",
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.83,
+			"sections_instructor": "bluman, george w",
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.84,
+			"sections_instructor": "li, dong",
+			"sections_title": "app part diff eq"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 62.84,
+			"sections_instructor": "",
+			"sections_title": "princpl macrecon"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.84,
+			"sections_instructor": "lekhi, priya",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.84,
+			"sections_instructor": "",
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 62.87,
+			"sections_instructor": "milner, valery",
+			"sections_title": "energy & waves"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.87,
+			"sections_instructor": "smith, jefferey",
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 62.87,
+			"sections_instructor": "",
+			"sections_title": "inter macro/finc"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 62.87,
+			"sections_instructor": "mcintyre, gerald",
+			"sections_title": "inter macro/finc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.88,
+			"sections_instructor": "gonzalez, jose",
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.88,
+			"sections_instructor": "",
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 62.88,
+			"sections_instructor": "kong, wai-ching alfred",
+			"sections_title": "princpl macrecon"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.88,
+			"sections_instructor": "crane, angela",
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.88,
+			"sections_instructor": "",
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.89,
+			"sections_instructor": "",
+			"sections_title": "matls in design"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 62.89,
+			"sections_instructor": "sinclair, chadwick",
+			"sections_title": "matls in design"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.89,
+			"sections_instructor": "kool, martijn",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.89,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_avg": 62.9,
+			"sections_instructor": "",
+			"sections_title": "fr lit in tran i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_avg": 62.9,
+			"sections_instructor": "scott, anne",
+			"sections_title": "fr lit in tran i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.9,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.9,
+			"sections_instructor": "",
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.92,
+			"sections_instructor": "",
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 62.92,
+			"sections_instructor": "leveridge, aubrey",
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_avg": 62.92,
+			"sections_instructor": "ponzetti, james joseph",
+			"sections_title": "relation develop"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.92,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.92,
+			"sections_instructor": "",
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 62.92,
+			"sections_instructor": "berger, james",
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 62.93,
+			"sections_instructor": "bittner, thomas jacob",
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_avg": 62.94,
+			"sections_instructor": "hart, r alexander",
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 62.94,
+			"sections_instructor": "",
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.95,
+			"sections_instructor": "gupta, rajiv",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 62.95,
+			"sections_instructor": "",
+			"sections_title": "europ since 1950"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 62.95,
+			"sections_instructor": "lanthier, michael",
+			"sections_title": "europ since 1950"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.95,
+			"sections_instructor": "",
+			"sections_title": "inorganic chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.95,
+			"sections_instructor": "monga, vishakha",
+			"sections_title": "inorganic chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.95,
+			"sections_instructor": "stewart, jaclyn;tanner, martin",
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 62.98,
+			"sections_instructor": "margolis, eric",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 62.98,
+			"sections_instructor": "tait, david e n",
+			"sections_title": "computer ap frst"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 62.98,
+			"sections_instructor": "",
+			"sections_title": "comp methods"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 62.98,
+			"sections_instructor": "feng, james jingtao",
+			"sections_title": "comp methods"
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.99,
+			"sections_instructor": "tzou, justin",
+			"sections_title": "matrix algebra"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.99,
+			"sections_instructor": "",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 62.99,
+			"sections_instructor": "legzdins, peter",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 63,
+			"sections_instructor": "riccardi, daniel",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 63,
+			"sections_instructor": "bendickson, dennis",
+			"sections_title": "forest oper's i"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 63,
+			"sections_instructor": "broderick, george",
+			"sections_title": "mngmt&orgnz bhvr"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 63,
+			"sections_instructor": "",
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 63,
+			"sections_instructor": "",
+			"sections_title": "human biology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_avg": 63,
+			"sections_instructor": "harris, robert",
+			"sections_title": "human biology"
+		}
+	]
+}

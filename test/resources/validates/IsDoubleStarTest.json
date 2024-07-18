@@ -1,0 +1,20 @@
+{
+	"title": "In sections dataset sections, find entries whose Instructor includes \"kim\"; show Department, Average and Instructor; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*kim*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_instructor"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": true
+}

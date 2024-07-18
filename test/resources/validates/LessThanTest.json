@@ -1,0 +1,19 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is less than 65; show Department and Average; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"sections_avg": 65
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": true
+}

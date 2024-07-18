@@ -1,0 +1,23 @@
+{
+	"title": "In sections dataset sections, find entries whose Average is not greater than 63; show Department, Average, Instructor and Title; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"GT": {
+					"sections_avg": 63
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_instructor",
+				"sections_title"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": true
+}
