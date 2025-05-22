@@ -1,4 +1,4 @@
-# UBC Course Finder
+# Course Finder
 
 ## Overview
 
