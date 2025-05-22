@@ -19,29 +19,35 @@
 - **Languages**: TypeScript
 - **Backend**: Node.js, Express.js
 - **Frontend**: HTML, CSS, JavaScript
-- **Testing**: Mocha, Chai, Supertest
-- **Utilities**: fs-extra, JSZip, parse5
-- **Version Control**: Git, GitHub
+- **Testing**: Mocha, Chai
 
-## Project Structure
+## Usage
 
-```
-ubc-course-finder/
-├── src/
-│   ├── controller/
-│   ├── datasets/
-│   ├── queries/
-│   └── server/
-├── test/
-│   ├── unit/
-│   └── integration/
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-├── package.json
-├── tsconfig.json
-└── README.md
+- **Adding a Dataset**:
+  Send a `PUT` request to `/dataset/{id}/{kind}` with the dataset file in the request body.
+
+- **Removing a Dataset**:
+  Send a `DELETE` request to `/dataset/{id}`.
+
+- **Listing Datasets**:
+  Send a `GET` request to `/datasets`.
+
+- **Performing a Query**:
+  Send a `POST` request to `/query` with the query JSON in the request body.
+
+## Testing
+
+The project includes comprehensive unit and integration tests to ensure functionality and reliability. Tests cover various scenarios, including:
+
+- Valid and invalid dataset additions
+- Query parsing and execution
+- Error handling and edge cases
+- Frontend and backend integration
+
+To run the tests, execute:
+
+```bash
+yarn test
 ```
 
 ## Setup and Installation
@@ -75,31 +81,3 @@ ubc-course-finder/
 6. **Access the Frontend**:
    Open your browser and navigate to `http://localhost:4321` to interact with the application.
 
-## Usage
-
-- **Adding a Dataset**:
-  Send a `PUT` request to `/dataset/{id}/{kind}` with the dataset file in the request body.
-
-- **Removing a Dataset**:
-  Send a `DELETE` request to `/dataset/{id}`.
-
-- **Listing Datasets**:
-  Send a `GET` request to `/datasets`.
-
-- **Performing a Query**:
-  Send a `POST` request to `/query` with the query JSON in the request body.
-
-## Testing
-
-The project includes comprehensive unit and integration tests to ensure functionality and reliability. Tests cover various scenarios, including:
-
-- Valid and invalid dataset additions
-- Query parsing and execution
-- Error handling and edge cases
-- Frontend and backend integration
-
-To run the tests, execute:
-
-```bash
-yarn test
-```
