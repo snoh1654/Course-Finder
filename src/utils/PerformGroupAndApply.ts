@@ -2,21 +2,17 @@ import Decimal from "decimal.js";
 
 export class PerformGroupAndApply {
 	public static groupAndApply(datasetArray: any[], transformationQuery: any, underscorePos: number): any[] {
-		let groups: any = this.groupDataset(datasetArray, transformationQuery.GROUP, underscorePos); // object with array property values
-		// console.log(groups);
-		return this.applyGroup(groups, transformationQuery, underscorePos); // returns an array of each condensed group
+		let groups: any = this.groupDataset(datasetArray, transformationQuery.GROUP, underscorePos);
+		return this.applyGroup(groups, transformationQuery, underscorePos); 
 	}
 
 	private static groupDataset(datasetArray: any[], groupKeyArray: string[], underscorePos: number) {
 		let firstGroup: string = groupKeyArray[0];
-		// console.log(firstGroup);
 		let firstGroupCategory = firstGroup.slice(underscorePos + 1, firstGroup.length);
 		let groupedDatasetObject: any = {};
-		// console.log(firstGroupCategory);
 
 		for (let dataset of datasetArray) {
 			let datasetValue = dataset[firstGroupCategory];
-			// let keyName = datasetValue + " " + firstGroupCategory;
 			if (Object.hasOwn(groupedDatasetObject, datasetValue)) {
 				groupedDatasetObject[datasetValue].push(dataset);
 			} else {
@@ -38,8 +34,8 @@ export class PerformGroupAndApply {
 	}
 
 	private static groupDatasetMultiple(groupedDatasetObject: any, groupKey: string) {
-		let returnGroupedObject: any = {}; // can simply and just use one object INSTEAD OF object array -> single object
-		for (const groupValue in groupedDatasetObject) { // groupValue is key, groupedDatasetObject[groupValue] is value
+		let returnGroupedObject: any = {};
+		for (const groupValue in groupedDatasetObject) { 
 
 			for (let dataset of groupedDatasetObject[groupValue]) {
 				const datasetValue = dataset[groupKey];
@@ -103,7 +99,7 @@ export class PerformGroupAndApply {
 			condensedGroups.push(condensedGroup);
 		}
 
-		return condensedGroups; // array of objects
+		return condensedGroups;
 	}
 
 	private static getMaxApply(datasets: any[], field: string): number {

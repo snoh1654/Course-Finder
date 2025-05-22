@@ -43,7 +43,6 @@ export default class Server {
 					console.info(`Server::start() - server listening on port: ${this.port}`);
 					resolve();
 				}).on("error", (err: Error) => {
-					// catches errors in server start
 					console.error(`Server::start() - server ERROR: ${err.message}`);
 					reject(err);
 				});
@@ -175,12 +174,10 @@ export default class Server {
 			let result = facade.listDatasets().then((value) => {
 				res.status(200).json({result: value});
 			}).catch((err) => {
-				// this shouldn't be executed
 				res.status(404).json({error: err.message});
 			});
 			return result;
 		} catch (err) {
-			// this shouldn't be executed
 			res.status(404).json({error: err});
 		}
 	}

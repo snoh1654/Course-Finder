@@ -48,7 +48,6 @@ export class AddRoomUtils {
 					rooms.push(roomArr[j]);
 				}
 			}).catch((err) => {
-				// err somewhere, current iteration is not valid building, skip to next building
 			}));
 		}
 
@@ -56,7 +55,6 @@ export class AddRoomUtils {
 			if (rooms.length === 0) {
 				return Promise.reject();
 			}
-			// console.log(rooms.length);
 			return rooms;
 		}).catch((err) => {
 			return Promise.reject(err);
@@ -155,7 +153,7 @@ export class AddRoomUtils {
 			let building = this.handleTr(value);
 			if (building != null) {
 				buildings.push(building);
-			} // do nothing if returned null
+			}
 		}
 		value.childNodes.forEach((child: any) => {
 			this.traverseDocument(child).forEach((building, index, array) => {

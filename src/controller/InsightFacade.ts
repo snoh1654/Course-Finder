@@ -100,13 +100,7 @@ export default class InsightFacade implements IInsightFacade {
 		if (!ValidateHelper.validateQuery(query, PersistUtils.getFileNamesSync())) {
 			return Promise.reject(new InsightError("Error, There does not exist a dataset with that name"));
 		}
-		// Query is now properly formatted
 
-		// get the json file from disk and make it an object
-		// read info from query and filter the string array
-		// format the string array into columns
-		// sort the array
-		// return the formatted results
 		const inputQuery: any = query;
 
 		let firstColumn: string = inputQuery.OPTIONS.COLUMNS[0];

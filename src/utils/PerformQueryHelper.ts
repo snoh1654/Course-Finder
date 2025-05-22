@@ -7,13 +7,8 @@ export class PerformQueryHelper {
 	public static returnQuery(datasetArray: any[], query: any, underscorePos: number): InsightResult[] {
 		this.filterDatasetArray(datasetArray, query, underscorePos); // filter array according to where
 		if (Object.keys(query).includes("TRANSFORMATIONS")) {
-			// console.log("GROUPING");
 			let groupedDataset = PerformGroupAndApply.groupAndApply(datasetArray, query.TRANSFORMATIONS, underscorePos); // create groups and find information according to APPLY
-			// console.log("grouped and applied");
-			// console.log(groupedDataset);
 			this.specifyGroupedDataset(groupedDataset, query.OPTIONS.COLUMNS, underscorePos);
-			// console.log("specified");
-			// console.log(groupedDataset);
 			this.sortDatasetArray(groupedDataset, query); // sort array according to order if it exists
 			console.log("SORTED");
 			console.log(groupedDataset);
@@ -194,7 +189,7 @@ export class PerformQueryHelper {
 
 		this.performSort(datasetArray, keys);
 
-		if (direction === "DOWN") { // DOWN is reverse
+		if (direction === "DOWN") {
 			datasetArray.reverse();
 		}
 	}
@@ -202,7 +197,6 @@ export class PerformQueryHelper {
 	private static performSort(datasetArray: any[], keys: string[]): void {
 		datasetArray.sort((a: any, b: any) => {
 			for (let orderKey of keys) {
-				// console.log(a[orderKey] + " comparing " + b[orderKey]);
 				if (a[orderKey] < b[orderKey]) {
 					return -1;
 				}
